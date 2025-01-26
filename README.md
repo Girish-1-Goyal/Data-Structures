@@ -197,3 +197,110 @@ To tackle Data Structures and Algorithms (DSA) problems effectively, follow thes
 ---
 
 Mastering these strategies, patterns, and techniques will significantly enhance your ability to solve DSA problems confidently.
+
+# Time Complexity of Algorithms
+
+## Arrays (Space-Time Complexity)
+
+| Operation              | Worst Case | Average Case | Best Case |
+|------------------------|------------|--------------|-----------|
+| Accessing an element   | O(1)       | O(1)         | O(1)      |
+| Updating an element    | O(1)       | O(1)         | O(1)      |
+| Deleting an element    | O(n)       | O(n)         | O(1)      |
+| Inserting an element   | O(n)       | O(n)         | O(1)      |
+| Searching for an element | O(n)     | O(n)         | O(1)      |
+
+---
+
+## Algorithm Complexity
+
+### Sorting Algorithms
+
+| Algorithm      | Worst Case    | Average Case | Best Case     | Space Complexity |
+|----------------|---------------|--------------|---------------|-------------------|
+| Quicksort      | O(n²)         | O(n log n)   | O(n log n)    | O(log n)         |
+| Mergesort      | O(n log n)    | O(n log n)   | O(n log n)    | O(n)             |
+| Heapsort       | O(n log n)    | O(n log n)   | O(n log n)    | O(1)             |
+| Bubble Sort    | O(n²)         | O(n²)        | O(n)          | O(1)             |
+| Insertion Sort | O(n²)         | O(n²)        | O(n)          | O(1)             |
+| Selection Sort | O(n²)         | O(n²)        | O(n²)         | O(1)             |
+
+---
+
+### Searching Algorithms
+
+| Algorithm          | Worst Case    | Average Case | Best Case     | Space Complexity |
+|--------------------|---------------|--------------|---------------|-------------------|
+| Binary Search      | O(log n)      | O(log n)     | O(1)          | O(1)             |
+| Linear Search      | O(n)          | O(n)         | O(1)          | O(1)             |
+
+---
+
+## Strings (Space-Time Complexity)
+
+| Operation         | Worst Case     | Average Case  | Best Case      |
+|-------------------|----------------|---------------|----------------|
+| Accessing         | O(1)          | O(1)          | O(1)           |
+| Deleting          | O(n)          | O(n)          | O(1)           |
+| Inserting         | O(n)          | O(n)          | O(1)           |
+| Searching         | O(n * m)      | O(n)          | O(1)           |
+| Slicing           | O(n)          | O(n)          | O(n)           |
+| Concatenating     | O(n + m)      | O(n + m)      | O(n)           |
+| Comparison        | O(n)          | O(n)          | O(n)           |
+
+---
+
+### String Search Algorithms
+
+| Algorithm               | Worst Case        | Average Case    | Best Case    | Space Complexity |
+|-------------------------|-------------------|-----------------|-------------|-------------------|
+| Radix Sort (m = length) | O(n * m)         | O(n * m)        | O(n * m)    | O(n + m)         |
+| Naive Search            | O(m * (n - m + 1)) | O(n * m)      | O(n)        | O(1)             |
+| Knuth-Morris-Pratt      | O(m + n)         | O(n)            | O(n)        | O(m)             |
+| Boyer-Moore             | O(n * m)         | O(n)            | O(n/m)      | O(m)             |
+| Rabin-Karp              | O(m * (n - m + 1)) | O(n + m)      | O(m)        | O(m)             |
+
+---
+
+## Linked Lists (Space-Time Complexity)
+
+| Operation              | Worst Case | Average Case | Best Case |
+|------------------------|------------|--------------|-----------|
+| Accessing             | O(n)       | O(n)         | O(1)      |
+| Deleting (after search) | O(1)     | O(1)         | O(1)      |
+| Inserting (after search) | O(1)   | O(1)         | O(1)      |
+| Searching              | O(n)       | O(n)         | O(1)      |
+| Traversing             | O(n)       | O(n)         | O(n)      |
+
+---
+
+## Trees (Space-Time Complexity)
+
+| Operation            | Worst Case | Average Case | Best Case | Space Complexity |
+|----------------------|------------|--------------|-----------|-------------------|
+| Depth-First Search   | O(n)       | O(n)         | O(n)      | O(n)             |
+| Breadth-First Search | O(n)       | O(n)         | O(n)      | O(n)             |
+| Tree Sort            | O(n²)      | O(n log n)   | O(n log n) | O(n)            |
+
+---
+
+## Graphs (Space-Time Complexity)
+
+| Algorithm               | Time Complexity    | Space Complexity |
+|-------------------------|--------------------|-------------------|
+| Breadth-First Search    | O(V + E)          | O(V)             |
+| Depth-First Search      | O(V + E)          | O(V)             |
+| A* Search               | O(E)              | O(V)             |
+| Dijkstra’s Algorithm    | O(V²) / O(E log V)| O(V)             |
+
+---
+
+## Heaps (Space-Time Complexity)
+
+| Operation       | Worst Case | Average Case | Best Case |
+|-----------------|------------|--------------|-----------|
+| Insert          | O(log n)   | O(log n)     | O(1)      |
+| Delete          | O(log n)   | O(log n)     | O(1)      |
+| Find Min/Max    | O(1)       | O(1)         | O(1)      |
+| Search          | O(n)       | O(n)         | O(1)      |
+
